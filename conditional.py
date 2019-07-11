@@ -18,3 +18,10 @@ def get_age():
 def age_calculator(yob):
     age = 2019 - yob
     return "You're " + str(age) + " years old"
+
+def leapyear(yob):
+    if (yob % 4) == 0:
+        print (str(yob) + " is a leap year")
+    else:
+        print (str(yob) + " is not aleap year")
+        
